@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="MarketFeed.Net/MarketFeed.Net.csproj" />
+  <Project Path="Sample/Sample.csproj" />
+</Solution>

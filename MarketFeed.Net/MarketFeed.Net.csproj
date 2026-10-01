@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net10.0;</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RootNamespace>MarketFeed.Net</RootNamespace>
+
+		<PackageId>MarketFeed.Net</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Jalal Jaleh</Authors>
+		<Description>
+			Unified, real-time public market data for .NET: prices, 24h volume, order books, trades and
+			candles from the free public APIs of Binance, OKX, Bybit, Kraken, Coinbase, KuCoin, Bitget,
+			Gate.io, MEXC, Bitstamp, Bitfinex, Nobitex plus asset metadata from CoinGecko.
+			No API key required.
+		</Description>
+		<PackageTags>crypto;market-data;ticker;orderbook;candles;binance;okx;bybit;kraken;coinbase;websocket</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/JalalJaleh/MarketFeed.Net</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/JalalJaleh/MarketFeed.Net</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
