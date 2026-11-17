@@ -10,8 +10,8 @@
 		<RootNamespace>MarketFeed.Net</RootNamespace>
 
 		<PackageId>MarketFeed.Net</PackageId>
-		<Version>1.0.0</Version>
-		<Authors>Jalal Jaleh</Authors>
+		<Version>1.0.0-beta</Version>
+		<Authors>Mohammad Jalal Jaleh | محمد جلال ژاله</Authors>
 		<Description>
 			Unified, real-time public market data for .NET: prices, 24h volume, order books, trades and
 			candles from the free public APIs of Binance, OKX, Bybit, Kraken, Coinbase, KuCoin, Bitget,
@@ -23,6 +23,9 @@
 		<PackageProjectUrl>https://github.com/JalalJaleh/MarketFeed.Net</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/JalalJaleh/MarketFeed.Net</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<AssemblyTitle>MarketFeed.Net</AssemblyTitle>
+		<Title>MarketFeed.Net</Title>
+		<Copyright>Mohammad Jalal Jaleh 2026</Copyright>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -32,7 +35,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
